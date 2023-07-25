@@ -1,6 +1,6 @@
 [tool.repo]
 name = "scripts"
-version = "0.0.0"
+version = "0.1.0"
 description = "Collection of scripts for interacting with Cohesity APIs."
 authors = []
 
