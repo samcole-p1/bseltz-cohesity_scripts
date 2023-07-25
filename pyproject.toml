@@ -1,0 +1,15 @@
+[tool.repo]
+name = "scripts"
+version = "0.0.0"
+description = "Collection of scripts for interacting with Cohesity APIs."
+authors = []
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:tool.repo.version"
+]
+major_on_zero = true
+branch = "master"
+upload_to_pypi = false
+upload_to_release = false
+build_command = false
